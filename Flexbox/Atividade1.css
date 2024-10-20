@@ -1,0 +1,17 @@
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    background-color: rgb(255, 235, 164);
+}
+
+.flex-container>a {
+    flex: 1;
+    padding: 10px;
+    margin: 40px;
+    text-align: center;
+    background-color: rgb(217, 129, 255);
+}

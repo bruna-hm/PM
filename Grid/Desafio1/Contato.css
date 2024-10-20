@@ -1,0 +1,35 @@
+.grid-container {
+    display: grid;
+    place-items: center;
+    gap: 8px;
+    grid-template-columns: auto auto;
+    grid-template-areas:
+    "navbar-left navbar-right"
+    "main main"
+    "footer footer";
+}
+
+hr.top {
+    border-top: 6px solid rgb(66, 94, 205);
+}
+
+.navbar-left {
+    grid-area: navbar-left;
+}
+
+.navbar-right {
+    grid-area: navbar-right;
+}
+
+main {
+    grid-area: main;
+    text-align: left;
+    font-family: Helvetica;
+    font-size: large;
+    
+}
+
+footer {
+    grid-area: footer;
+    font-weight: bold;
+}
