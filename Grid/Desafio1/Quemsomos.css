@@ -1,0 +1,45 @@
+.grid-container {
+    display: grid;
+    place-items: center;
+    gap: 8px;
+    grid-template-columns: auto auto;
+    grid-template-areas:
+        "navbar-left navbar-right"
+        "main main"
+        "footer footer";
+}
+
+hr.top {
+    border-top: 6px solid rgb(66, 94, 205);
+}
+
+.navbar-left {
+    grid-area: navbar-left;
+}
+
+.navbar-right {
+    grid-area: navbar-right;
+}
+
+main {
+    grid-area: main;
+    text-align: left;
+    font-size: larger;
+    padding: 0px 250px;
+}
+
+main h3 {
+    text-align: left;
+}
+
+section,
+ol,
+li,
+h3 {
+    font-family: Helvetica;
+}
+
+footer {
+    grid-area: footer;
+    font-weight: bold;
+}

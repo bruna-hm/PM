@@ -1,0 +1,59 @@
+.grid-container {
+    display: grid;
+    place-items: center;
+    gap: 8px;
+    grid-template-columns: auto auto;
+    grid-template-areas:
+        "navbar-left navbar-right"
+        "header header"
+        "main main"
+        "footer footer";
+}
+
+hr.top {
+    border-top: 6px solid rgb(66, 94, 205);
+}
+
+header {
+    grid-area: header;
+    width: 1300px;
+    border-radius: 30px;
+    background-color: rgb(218, 218, 218);
+    place-items: center;
+}
+
+.navbar-left {
+    grid-area: navbar-left;
+}
+
+.navbar-right {
+    grid-area: navbar-right;
+}
+
+.capa {
+    display: block;
+    margin: 0 auto 0 auto;
+    width: 1005px;
+    height: 340px;
+}
+
+main {
+    grid-area: main;
+    text-align: left;
+    font-family: Helvetica;
+    font-size: medium;
+    padding: 0px 250px;
+}
+
+main h3 {
+    text-align: left;
+}
+
+.article {
+    text-align: left;
+}
+
+footer {
+    grid-area: footer;
+    font-weight: bold;
+}

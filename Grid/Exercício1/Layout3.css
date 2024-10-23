@@ -1,0 +1,12 @@
+.grid-container {
+  display: grid;
+  text-align: center;
+  grid-template-areas: 
+  "coluna1 coluna2 coluna3"
+  "footer footer footer";
+}
+
+.coluna1 { grid-area: coluna1; }
+.coluna2 { grid-area: coluna2; }
+.coluna3 { grid-area: coluna3; }
+.footer { grid-area: footer; }

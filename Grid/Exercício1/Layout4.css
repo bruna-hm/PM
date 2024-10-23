@@ -1,0 +1,11 @@
+.grid-container {
+    display: grid;
+    text-align: center;
+    grid-template-columns: 25%, 75%;
+    grid-template-rows: 150px 150px;
+    grid-template-areas: 
+    "sidebar main";
+}
+
+.sidebar { grid-area: sidebar; }
+.main { grid-area: main;}

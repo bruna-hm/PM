@@ -1,0 +1,18 @@
+.grid-container {
+    display: grid;
+    text-align: center;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 150px 150px 150px;
+    grid-template-areas:
+    "header header header"
+    "navbar main sidebar"
+    "nav-item main side-item"
+    "footer footer footer";
+
+}
+
+.header { grid-area: header; }
+.navbar { grid-area: navbar; }
+.main { grid-area: main; }
+.sidebar { grid-area: sidebar; }
+.footer { grid-area: footer; }

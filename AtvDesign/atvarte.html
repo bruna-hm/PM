@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" srchref="favicon.png"/>
+  <link rel="stylesheet" href="atvarte.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+  <header id="1" class="flex-row header-row">
+    <nav class="navbar navbar-header navbar-expand-lg fs-2">
+      <div class="nav-item-brand fs-2">
+        <img src="logo.png">
+        TATTOO
+      </div>
+      <button class="navbar-toggler m-5" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerMain" aria-controls="navbarTogglerMain">
+        <i class="bi bi-yin-yang"></i>
+      </button>
+      <div class="collapse navbar-collapse justify-content-between text-center" id="navbarTogglerMain">
+        <div class="nav-item flex-grow">
+          <a class="nav-link" href="#2">
+            &#128900;Estilos&#128900;
+          </a>
+        </div>
+        <div class="nav-item p-10">
+          <a class="nav-link" href="#3">
+            &#128900;Sobre&#128900;
+          </a>
+        </div>
+        <div class="nav-item">
+          <a class="nav-link" data-bs-toggle="modal" data-bs-target="#ContatoModel">
+            &#128900;Orçamento&#128900;
+          </a>
+          <div class="modal fade" id="ContatoModel" tabindex="-1" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header justify-content-center">
+                  <h3 class="modal-title" id="ContatoModel">
+                    Orçamento:
+                  </h3>
+                </div>
+                <div class="modal-body">
+                  <form>
+                    <div class="input-group mb-3">
+                      <span class="input-group-text" id="Nome"><i class="bi bi-file-person"></i></span>
+                      <input type="text" class="form-control" placeholder="Nome">
+                    </div>
+                    <div class="input-group mb-3">
+                      <span class="input-group-text" id="Cidade"><i class="bi bi-geo-alt"></i></span>
+                      <input type="text" class="form-control" placeholder="Cidade">
+                    </div>
+                    <div class="input-group mb-3">
+                      <span class="input-group-text" id="WhatsApp"><i class="bi bi-whatsapp"></i></span>
+                      <input type="text" class="form-control" placeholder="(00)00000-0000">
+                    </div>
+                    <div class="input-group mb-3">
+                      <span class="input-group-text" id="WhatsApp"><i class="bi bi-pencil"></i></span>
+                      <select class="form-select">
+                        <option selected>Estilo</option>
+                        <option value="1">OldSchool</option>
+                        <option value="2">Oriental</option>
+                        <option value="3">Outros</option>
+                      </select> 
+                    </div>
+                    <div class="input-group mb-3">
+                      <input type="file" class="form-control" id="inputAnexo">
+                    </div>
+                    <div class="input-group mb-3">
+                      <textarea class="form-control" placeholder="Sua Ideia" rows="4"></textarea>
+                    </div> 
+                  </form>    
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-form" data-bs-dismiss="modal">
+                    Fechar
+                  </button>
+                  <button type="button" class="btn btn-form">
+                    Enviar
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div> 
+    </nav> 
+  </header>
+  <section class="container-fluid container-header text-center p-0">   
+    <div class="flex-row headermain-row justify-content-center">
+      <div id="carouselHeader" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="capa1.png" class="d-block w-100" alt="Tigre com ondas Old">
+          </div>
+          <div class="carousel-item">
+            <img src="capa2.png" class="d-block w-100" alt="Flashs OldSchool">
+          </div>
+          <div class="carousel-item">
+            <img src="capa3.png" class="d-block w-100" alt="Flashs Orientais">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselHeader" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselHeader" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <p>
+        AGENDE SUA TATTOO!    
+      </p>
+    </div>   
+  </section>
+  <main id="2" class="container-fluid container-main text-center p-5">
+    <a class="contatoi-icon d-inline" href="https://instagram.com/joaof.tattoo">
+      <i class="bi bi-instagram fs-1"></i>
+    </a>
+    <a class="contatow-icon d-inline" href="https://api.whatsapp.com/send?phone=5511988278627">
+      <i class="bi bi-whatsapp fs-1"></i>
+    </a>
+    <a class="contatof-icon d-inline" href="https://www.facebook.com/61556458810183">
+      <i class="bi bi-facebook fs-1"></i>
+    </a>
+    <div class="card mt-5 mb-5">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="card-body card-old h-100 p-5">
+            <h1 class="card-title pb-4">
+              &#128900;OldSchool&#128900;
+            </h1>
+            <button type="button" class="btn btn-card btn-lg">
+              Projetos Disponíveis
+            </button>
+          </div>
+        </div> 
+      </div> 
+    </div>
+    <div class="card mb-5">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="card-body card-oriental h-100 p-5">
+            <h1 class="card-title pb-5">
+              &#128900;Oriental&#128900;
+            </h1>
+            <button type="button" class="btn btn-card btn-lg">
+              Projetos Disponíveis
+            </button>  
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <section class="container-fluid container-footer justify-content-center text-center">  
+    <div class="row row-cols-2 align-items-center">
+      <div id="3" class="col-6 mx-auto"> 
+        <p class="title-footer mt-5 mb-5">
+          &#128900;Sobre&#128900;  
+        </p> 
+        <p class="text-footer mt-5 mb-5">
+          Tatuo na cidade de São José dos Campos-SP e com agendamentos em São Paulo capital.
+          Iniciei na tatuagem em 2017, no Jardas Tattoo,
+          depois de alguns anos como aprendiz migrei por outros estúdios e vivências. 
+          <br>Hoje atendo em estúdio particular e também no BullHorn em SP.
+          Meus principais estilos são OldSchool e Oriental, voltado para o japonês tradicional. 
+        </p>
+        <p class="title-footer">
+          &#128900;JOÃO FRANCISCO&#128900;
+        </p> 
+      </div>
+      <div class="col-5 p-2">
+        <img src="perfil1.jpg" class="img-fluid" alt="Foto do Tatuador">
+      </div>  
+    </div> 
+  </section>
+  <a class="up-icon position-fixed bottom-0 end-0 m-4 fs-1" href="#1">
+    <i class="bi bi-arrow-up-square-fill"></i></i>
+  </a>
+</body>
+</html>
