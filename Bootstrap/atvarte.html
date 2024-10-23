@@ -10,111 +10,110 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 <body>
-  <header id="1" class="flex-row header-row">
-    <nav class="navbar navbar-header navbar-expand-lg fs-2">
-      <div class="nav-item-brand fs-2">
-        <img src="logo.png">
-        TATTOO
-      </div>
-      <button class="navbar-toggler m-5" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerMain" aria-controls="navbarTogglerMain">
-        <i class="bi bi-yin-yang"></i>
-      </button>
-      <div class="collapse navbar-collapse justify-content-between text-center" id="navbarTogglerMain">
-        <div class="nav-item flex-grow">
-          <a class="nav-link" href="#2">
-            &#128900;Estilos&#128900;
-          </a>
+  <section class="container-fluid container-header text-center p-0">   
+    <header id="1" class="flex-row flex-grow-auto header-row">
+      <nav class="navbar navbar-header navbar-expand-lg fs-2">
+        <div class="nav-item-brand fs-2">
+          <img src="logo.png">
+          TATTOO
         </div>
-        <div class="nav-item p-10">
-          <a class="nav-link" href="#3">
-            &#128900;Sobre&#128900;
-          </a>
-        </div>
-        <div class="nav-item">
-          <a class="nav-link" data-bs-toggle="modal" data-bs-target="#ContatoModel">
-            &#128900;Orçamento&#128900;
-          </a>
-          <div class="modal fade" id="ContatoModel" tabindex="-1" aria-hidden="true">
-            <div class="modal-dialog">
-              <div class="modal-content">
-                <div class="modal-header justify-content-center">
-                  <h3 class="modal-title" id="ContatoModel">
-                    Orçamento:
-                  </h3>
-                </div>
-                <div class="modal-body">
-                  <form>
-                    <div class="input-group mb-3">
-                      <span class="input-group-text" id="Nome"><i class="bi bi-file-person"></i></span>
-                      <input type="text" class="form-control" placeholder="Nome">
-                    </div>
-                    <div class="input-group mb-3">
-                      <span class="input-group-text" id="Cidade"><i class="bi bi-geo-alt"></i></span>
-                      <input type="text" class="form-control" placeholder="Cidade">
-                    </div>
-                    <div class="input-group mb-3">
-                      <span class="input-group-text" id="WhatsApp"><i class="bi bi-whatsapp"></i></span>
-                      <input type="text" class="form-control" placeholder="(00)00000-0000">
-                    </div>
-                    <div class="input-group mb-3">
-                      <span class="input-group-text" id="WhatsApp"><i class="bi bi-pencil"></i></span>
-                      <select class="form-select">
-                        <option selected>Estilo</option>
-                        <option value="1">OldSchool</option>
-                        <option value="2">Oriental</option>
-                        <option value="3">Outros</option>
-                      </select> 
-                    </div>
-                    <div class="input-group mb-3">
-                      <input type="file" class="form-control" id="inputAnexo">
-                    </div>
-                    <div class="input-group mb-3">
-                      <textarea class="form-control" placeholder="Sua Ideia" rows="4"></textarea>
-                    </div> 
-                  </form>    
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-form" data-bs-dismiss="modal">
-                    Fechar
-                  </button>
-                  <button type="button" class="btn btn-form">
-                    Enviar
-                  </button>
+        <button class="navbar-toggler m-5" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerMain" aria-controls="navbarTogglerMain">
+          <i class="bi bi-yin-yang"></i>
+        </button>
+        <div class="collapse navbar-collapse justify-content-between text-center" id="navbarTogglerMain">
+          <div class="nav-item flex-grow">
+            <a class="nav-link" href="#2">
+              &#128900;Estilos&#128900;
+            </a>
+          </div>
+          <div class="nav-item p-10">
+            <a class="nav-link" href="#3">
+              &#128900;Sobre&#128900;
+            </a>
+          </div>
+          <div class="nav-item">
+            <a class="nav-link" data-bs-toggle="modal" data-bs-target="#ContatoModel">
+              &#128900;Orçamento&#128900;
+            </a>
+            <div class="modal fade" id="ContatoModel" tabindex="-1" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header justify-content-center">
+                    <h3 class="modal-title" id="ContatoModel">
+                      Orçamento:
+                    </h3>
+                  </div>
+                  <div class="modal-body">
+                    <form>
+                      <div class="input-group mb-3">
+                        <span class="input-group-text" id="Nome"><i class="bi bi-file-person"></i></span>
+                        <input type="text" class="form-control" placeholder="Nome">
+                      </div>
+                      <div class="input-group mb-3">
+                        <span class="input-group-text" id="Cidade"><i class="bi bi-geo-alt"></i></span>
+                        <input type="text" class="form-control" placeholder="Cidade">
+                      </div>
+                      <div class="input-group mb-3">
+                        <span class="input-group-text" id="WhatsApp"><i class="bi bi-whatsapp"></i></span>
+                        <input type="text" class="form-control" placeholder="(00)00000-0000">
+                      </div>
+                      <div class="input-group mb-3">
+                        <span class="input-group-text" id="WhatsApp"><i class="bi bi-pencil"></i></span>
+                        <select class="form-select">
+                          <option selected>Estilo</option>
+                          <option value="1">OldSchool</option>
+                          <option value="2">Oriental</option>
+                          <option value="3">Outros</option>
+                        </select> 
+                      </div>
+                      <div class="input-group mb-3">
+                        <input type="file" class="form-control" id="inputAnexo">
+                      </div>
+                      <div class="input-group mb-3">
+                        <textarea class="form-control" placeholder="Sua Ideia" rows="4"></textarea>
+                      </div> 
+                    </form>    
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-form" data-bs-dismiss="modal">
+                      Fechar
+                    </button>
+                    <button type="button" class="btn btn-form">
+                      Enviar
+                    </button>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-        </a>
-      </div> 
-    </nav> 
-  </header>
-  <section class="container-fluid container-header text-center p-0">   
+          </a>
+        </div> 
+      </nav> 
+    </header>
     <div class="flex-row headermain-row justify-content-center">
-      <div id="carouselHeader" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="capa1.png" class="d-block w-100" alt="Tigre com ondas Old">
-          </div>
-          <div class="carousel-item">
-            <img src="capa2.png" class="d-block w-100" alt="Flashs OldSchool">
-          </div>
-          <div class="carousel-item">
-            <img src="capa3.png" class="d-block w-100" alt="Flashs Orientais">
-          </div>
+    <div id="carouselHeader" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="capa1.png" class="d-block w-100" alt="Tigre com ondas Old">
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselHeader" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselHeader" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+        <div class="carousel-item">
+          <img src="capa2.png" class="d-block w-100" alt="Flashs OldSchool">
+        </div>
+        <div class="carousel-item">
+          <img src="capa3.png" class="d-block w-100" alt="Flashs Orientais">
+        </div>
       </div>
-      <p>
-        AGENDE SUA TATTOO!    
-      </p>
-    </div>   
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselHeader" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselHeader" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <p>
+      AGENDE SUA TATTOO!    
+    </p>
   </section>
   <main id="2" class="container-fluid container-main text-center p-5">
     <a class="contatoi-icon d-inline" href="https://instagram.com/joaof.tattoo">
