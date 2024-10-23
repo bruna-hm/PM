@@ -14,7 +14,6 @@ body {
     font-family: "Dela Gothic One", sans-serif;
     font-weight: 400;
     font-style: normal;
-    justify-items: center;
 }
 
 .nav-item-brand {
@@ -55,13 +54,12 @@ button.btn-form:hover {
     padding: 2vh 10vh;
 }
 
-.headermain-row p,
+.headermain-row h1,
 .title-footer {
     color: rgb(255, 165, 47);
     font-family: "Dela Gothic One", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 8vh;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: rgb(255, 255, 255);
 }
@@ -138,7 +136,6 @@ p.text-footer {
     font-family: "Niramit", sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 3vh;
 }
 
 a.up-icon {
