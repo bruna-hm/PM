@@ -136,6 +136,12 @@ p.text-footer {
     font-family: "Niramit", sans-serif;
     font-weight: 700;
     font-style: normal;
+    text-align: justify;
+}
+
+div img.img{
+    max-height: 90%;
+    max-width: 90%;
 }
 
 a.up-icon {
